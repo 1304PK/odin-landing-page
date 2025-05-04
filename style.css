@@ -58,11 +58,12 @@ nav h1 {
     color: #E5E7EB;
 }
 
-.second-section h2 {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
+.second-section {
+    font-family: Roboto;
+    text-align: center;
 }
+
+
 
 .website-info button {
     border: none;
@@ -73,22 +74,63 @@ nav h1 {
     width: 100px;
 }
 
+.second-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 35px;
+
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    gap: 50px;
+}
+
+.illustrations div {
+    width: 150px;
+    margin-top: 20px;
+    
+}
+
 .illustrations div div {
-    height: 100px;
-    width: 100px;
-    border: 1px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .third-section {
     background-color: #E5E7EB;
+    margin-top: 100px;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
-.third-section p {
+.third-section div {
+    width: 745px;
+
+
+}
+
+.quote {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
     color: #1F2937;
+}
+
+.author {
+    font-size: 20px;
+    text-align: end;
+    font-family: Roboto;
+    font-weight: bold;
+    color: black;
 }
 
 .fourth-section {
