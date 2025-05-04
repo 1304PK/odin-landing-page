@@ -134,11 +134,53 @@ nav h1 {
 }
 
 .fourth-section {
-    background-color: #3882F6;
-    border-radius: 10px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
 }
 
-.fourth-section button {
-    border: 1px solid white;
+.action-tab {
+    background-color: #3882F6;
     border-radius: 5px;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.action-tab .action-tab-heading{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action-tab .action-tab-paragraph {
+    color: white;
+    font-size: 14px;
+    color: #E5E7EB;
+
+}
+
+.action-tab button {
+    border: none;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.copyright-section {
+    background-color: #1F2937;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
 }
